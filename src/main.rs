@@ -5,7 +5,7 @@ use std::fs;
 use std::fs::File;
 use std::io::Write;
 
-fn sha1<'a>(s: &'a String) -> String {
+fn sha1(s: &String) -> String {
     let mut m = sha1::Sha1::new();
     m.update(s.as_bytes());
     m.digest().to_string()
