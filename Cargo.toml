@@ -4,6 +4,5 @@ version = "0.1.0"
 authors = ["edvbld"]
 
 [dependencies]
-ring = "0.4.3"
-flate2 = "0.2.14"
-rustc-serialize = "0.3"
+sha1 = "0.2.0"
+deflate = "0.7.2"
